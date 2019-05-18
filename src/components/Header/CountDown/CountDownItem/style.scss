@@ -1,0 +1,16 @@
+.count-down-item{
+  display: flex;
+  flex-direction: column;
+
+  flex-basis: 10rem;
+
+  text-align: center;
+
+  &__text{
+    font-size: 1.8rem;
+  }
+
+  &__value{
+    font-size: 6.5rem;
+  }
+}

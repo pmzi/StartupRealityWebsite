@@ -1,0 +1,20 @@
+@import '../../../stylesheets/imports.scss';
+
+.about-event{
+  align-self: stretch;
+
+  padding: 3rem 0;
+
+  border-top: 0.1rem solid $light-purple;
+  border-bottom: 0.1rem solid $light-purple;
+
+  &__header{
+    text-align: center;
+  }
+
+  &__title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+}

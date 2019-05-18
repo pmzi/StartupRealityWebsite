@@ -1,0 +1,37 @@
+@import '../../stylesheets/imports.scss';
+
+.nav{
+  width: 120rem;
+
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 3rem;
+  position: sticky;
+
+  padding-bottom: 1rem;
+  margin-bottom: 5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  background-image: url('/assets/128x128\ str.png');
+  background-repeat: no-repeat;
+  background-position: 0 -2.3rem;
+
+  &__content{
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 1rem;
+
+    height: 5rem;
+  }
+
+  &::after{
+    content: '';
+    background-image: linear-gradient(to left, $light-green, $light-purple);
+    height: 0.1rem;
+    width: calc(100% - 5rem);
+  }
+}

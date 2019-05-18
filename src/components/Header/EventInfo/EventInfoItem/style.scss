@@ -1,0 +1,14 @@
+.event-info-item{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  & &__icon{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+  }
+  &__value{
+
+  }
+}

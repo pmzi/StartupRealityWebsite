@@ -1,0 +1,16 @@
+@import '../../stylesheets/imports.scss';
+
+.header{
+  background-image: linear-gradient(to top, transparent 80%, $dark-purple), url(/assets/headerbg.png);
+
+  min-height: 60rem;
+
+  padding-top: 6rem;
+
+  background-size: cover;
+  background-position-y: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

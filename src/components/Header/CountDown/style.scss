@@ -1,0 +1,13 @@
+
+@import '../../../stylesheets/imports.scss';
+.count-down{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem 0;
+  background-color: transparentize($light-purple, 0.9);
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}

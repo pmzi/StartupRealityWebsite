@@ -1,0 +1,13 @@
+@import '../../../stylesheets/imports.scss';
+
+.button{
+  color: $dark-purple;
+
+  background-color: $light-green;
+
+  display: flex;
+  height: 4rem;
+  flex-basis: 10rem;
+  align-items: center;
+  justify-content: center;
+}

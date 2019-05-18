@@ -1,0 +1,16 @@
+@import '../../../../stylesheets/imports.scss';
+
+.nav-item{
+  padding: 0 1rem;
+
+  &__link{
+    color: $text-color;
+
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+  }
+}

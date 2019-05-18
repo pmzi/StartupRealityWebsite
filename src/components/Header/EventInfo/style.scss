@@ -1,0 +1,12 @@
+.event-info{
+  display: flex;
+  justify-content: center;
+
+  padding: 3rem 0;
+
+  &__item{
+    &:not(:last-child){
+      margin-left: 5rem;
+    }
+  }
+}
