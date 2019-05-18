@@ -1,0 +1,10 @@
+@import '../../stylesheets/imports.scss';
+
+.conductor-section{
+  padding: 5rem 0;
+
+  background-image: url(/assets/headerbg.png);
+
+  border-top: 0.1rem solid $light-purple;
+  border-bottom: 0.1rem solid $light-purple;
+}

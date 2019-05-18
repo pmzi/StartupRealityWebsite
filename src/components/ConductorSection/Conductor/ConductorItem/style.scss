@@ -1,0 +1,58 @@
+@import '../../../../stylesheets/imports.scss';
+
+.conductor-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--active &__dot{
+    background-image: radial-gradient($dark-green 0 30%, transparentize($light-green, 0.7) 30%, transparent);
+  }
+
+  &--active &__timing-item{
+    border: 0.1rem solid $light-green;
+  }
+
+  &__content{
+    flex: 1;
+
+    display: flex;
+  }
+
+  &__name{
+    padding: 0 1rem;
+
+    text-align: left;
+
+    flex: 1;
+  }
+
+  &__panelists{
+    flex: 1;
+
+    padding: 0 1rem;
+  }
+
+  &__timing{
+    display: flex;
+  }
+
+  &__timing-item{
+    border: 0.1rem solid $light-purple;
+
+    border-radius: 20px;
+    
+    padding: 0.5rem 2rem;
+
+    &:not(:last-child){
+      margin-left: 1rem;
+    }
+  }
+
+  &__dot{
+    width: 4rem;
+    height: 4rem;
+    background-image: radial-gradient($light-purple 0 35%, transparentize($light-purple, 0.7) 35%, transparent);
+    border-radius: 50%;
+  }
+}

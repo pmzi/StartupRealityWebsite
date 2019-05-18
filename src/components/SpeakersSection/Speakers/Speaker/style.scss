@@ -1,0 +1,28 @@
+.speaker{
+  display: flex;
+  flex-direction: column;
+
+  &__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__image{
+    clip-path: url(/assets/stsvg.svg#clippath);
+    
+    width: 14rem;
+
+    margin-bottom: 1rem;
+  }
+
+  &__name{
+    padding: 0 0.5rem;
+  }
+
+  &__desc{
+    font-size: 1.2rem;
+    text-align: center;
+
+    padding: 0.2rem 0;
+  }
+}

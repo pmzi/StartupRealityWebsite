@@ -1,0 +1,13 @@
+@import '../../../../stylesheets/imports.scss';
+
+.conductor-sep{
+  width: 0.1rem;
+  height: 3rem;
+
+  align-self: center;
+  margin-right: -2rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+
+  background-image: repeating-linear-gradient(to bottom, transparentize($light-purple, 0.1) 0 5%, transparent 5% 10%);
+}
