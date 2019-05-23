@@ -11,11 +11,17 @@ function LandingSection(){
             محل برگذاری
           </h2> 
         </header>
-        <img
-          className="location-section__image"
-          alt="محل برگذاری"
-          src="assets/map.png"
-        />
+        <a
+          href="https://goo.gl/maps/B4tm4kuQdYzsrEDe6"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="location-section__image"
+            alt="محل برگذاری"
+            src="assets/map.png"
+          />
+        </a>
         <div className="location-section__location">
           <i className="material-icons">
             location_on
