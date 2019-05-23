@@ -9,7 +9,7 @@ class NavList extends React.PureComponent{
   state = {
     items: [
       {
-        link: '#about-event',
+        link: '#header',
         text: 'صفحه‌اصلی',
       },
       {

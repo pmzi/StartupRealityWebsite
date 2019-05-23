@@ -1,13 +1,13 @@
 @import '../../stylesheets/imports.scss';
 
 .header{
-  padding: 0 2rem;
+  padding: 10rem 0;
   box-sizing: border-box;
   background-image: linear-gradient(to top, transparent 80%, $dark-purple), url(/assets/headerbg.png);
 
   min-height: 60rem;
 
-  padding-top: 6rem;
+  padding-top: 8rem;
 
   background-size: cover;
   background-position-y: 100%;

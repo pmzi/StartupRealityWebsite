@@ -11,6 +11,9 @@
 
   &--active &__timing-item{
     border: 0.1rem solid $light-green;
+    &:first-child{
+      border: 0.1rem solid transparentize($color: $light-green, $amount: 0.5);
+    }
   }
 
   &__content{

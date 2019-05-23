@@ -5,7 +5,8 @@ import './style.scss';
 smoothScroll.polyfill()
 
 export const scrollTo = (id, opt = { behavior: 'smooth' }) => {
-  document.querySelector(`.${id}`).scrollIntoView({
+  window.scroll({
+    top: document.querySelector(`.${id}`).offsetTop - 70,
     behavior: opt.behavior
   })
 
