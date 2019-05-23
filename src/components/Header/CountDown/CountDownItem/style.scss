@@ -8,9 +8,17 @@
 
   &__text{
     font-size: 1.8rem;
+
+    @media only screen and (max-width: 800px){
+      font-size: 1.6rem;
+    }
   }
 
   &__value{
     font-size: 6.5rem;
+
+    @media only screen and (max-width: 800px){
+      font-size: 4rem;
+    }
   }
 }

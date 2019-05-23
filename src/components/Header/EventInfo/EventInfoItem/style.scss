@@ -7,8 +7,12 @@
   & &__icon{
     font-size: 6rem;
     margin-bottom: 1rem;
+    @media only screen and (max-width: 800px){
+      font-size: 4rem;
+    }
   }
-  &__value{
 
+  &__text{
+    text-align: center;
   }
 }
