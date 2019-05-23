@@ -6,9 +6,11 @@ function LandingSection(){
   return (
     <section className="location-section">
       <div className="location-section__content">
-        <h2 className="location-section__title">
-          محل برگذاری
-        </h2>
+        <header>
+          <h2 className="location-section__title">
+            محل برگذاری
+          </h2> 
+        </header>
         <img
           className="location-section__image"
           alt="محل برگذاری"

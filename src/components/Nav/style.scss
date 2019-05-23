@@ -1,8 +1,12 @@
 @import '../../stylesheets/imports.scss';
 
 .nav{
-  width: 120rem;
+  max-width: 120rem;
+  width: 100%;
 
+  padding: 0 2rem;
+  box-sizing: border-box;
+  
   margin: auto;
   
   margin-top: 3rem;
@@ -15,7 +19,7 @@
 
   background-image: url('/assets/128x128\ str.png');
   background-repeat: no-repeat;
-  background-position: 0 -2.3rem;
+  background-position: 2rem -2.3rem;
 
   &__content{
     display: flex;
