@@ -9,7 +9,7 @@ export const scrollTo = (id, opt = { behavior: 'smooth' }) => {
     behavior: opt.behavior
   })
 
-  window.history.pushState(null, null, `.${id}`)
+  window.history.pushState(null, null, `#${id}`)
 }
 
 class NavItem extends React.Component {

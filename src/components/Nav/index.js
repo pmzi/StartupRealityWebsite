@@ -61,7 +61,7 @@ class Nav extends React.PureComponent{
                 </i> 
               : null
             }
-            <Button className="nav__signup-button">
+            <Button href="http://evand.com/events/sr1398" className="nav__signup-button">
               ثبت‌نام
             </Button>
           </div>

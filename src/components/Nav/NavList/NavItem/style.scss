@@ -13,6 +13,12 @@
 
     height: 100%;
     min-height: 3rem;
+
+    transition-duration: 0.3s;
+
+    &:hover{
+      color: $light-purple;
+    } 
   }
 
   @media only screen and (max-width: 800px){

@@ -10,4 +10,12 @@
   width: 10rem;
   align-items: center;
   justify-content: center;
+
+  text-decoration: none;
+
+  transition-duration: 0.3s;
+
+  &:hover{
+    opacity: 0.9;
+  }
 }

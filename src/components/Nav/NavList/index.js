@@ -13,17 +13,33 @@ class NavList extends React.PureComponent{
         text: 'صفحه‌اصلی',
       },
       {
-        link: '#1',
-        text: 'صفحه‌اصلی',
+        link: '#about-event',
+        text: 'درباره ما',
       },
       {
-        link: '#2',
-        text: 'صفحه‌اصلی',
+        link: '#speakers-section',
+        text: 'سخنرانان',
       },
       {
-        link: '#3',
-        text: 'صفحه‌اصلی',
-      }
+        link: '#conductor-section',
+        text: 'زمان‌بندی',
+      },
+      {
+        link: '#sponsors-section',
+        text: 'حامیان',
+      },
+      {
+        link: '#location-section',
+        text: 'محل برگذاری',
+      },
+      {
+        link: '#team-section',
+        text: 'تیم برگذاری',
+      },
+      {
+        link: '#socials-section',
+        text: 'تماس با ما',
+      },
     ]
   };
 
