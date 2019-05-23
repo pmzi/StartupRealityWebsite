@@ -1,0 +1,15 @@
+.team-section{
+  &__title{
+    text-align: center;
+  }
+  &__members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__member{
+    padding: 0 1rem;
+  }
+}

@@ -6,6 +6,7 @@ import SpeakersSection from './SpeakersSection';
 import ConductorSection from './ConductorSection';
 import SponsorsSection from './SponsorsSection';
 import LandingSection from './LocationSection';
+import FooterSection from './FooterSection';
 
 function Landing(){
   return (
@@ -16,6 +17,7 @@ function Landing(){
       <ConductorSection />
       <SponsorsSection />
       <LandingSection />
+      <FooterSection />
     </React.Fragment>
   );
 }

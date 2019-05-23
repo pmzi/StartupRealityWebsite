@@ -1,0 +1,21 @@
+.socials-section{
+  padding: 1rem 0;
+
+  &__title{
+    text-align: center;
+  }
+
+  &__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__item{
+    margin-bottom: 1rem;
+    &:not(:last-child){
+      margin-left: 1rem;
+    }
+  }
+}
