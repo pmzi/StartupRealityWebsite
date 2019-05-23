@@ -1,3 +1,5 @@
+@import '../../../../stylesheets/imports.scss';
+
 .speaker{
   display: flex;
   flex-direction: column;
@@ -10,7 +12,13 @@
   &__image{
     clip-path: url(/assets/stsvg.svg#clippath);
     
-    width: 14rem;
+    width: 20rem;
+    height: 20rem;
+
+    margin-bottom: 1rem;
+
+    border-radius: 50%;
+    border: 0.5rem solid $light-purple;
 
     margin-bottom: 1rem;
   }
