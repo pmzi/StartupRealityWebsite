@@ -28,6 +28,11 @@ class Nav extends React.PureComponent{
       if(window.innerWidth >= 800){
         this.setState({
           isOpen: false,
+          shouldShowMenuIcon: false,
+        });
+      }else{
+        this.setState({
+          shouldShowMenuIcon: true,
         });
       }
     });
