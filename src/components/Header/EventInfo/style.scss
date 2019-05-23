@@ -1,9 +1,12 @@
 .event-info{
   display: flex;
-  justify-content: space-between;
-  align-self: stretch;
 
-  padding: 3rem 0;
+  padding: 5rem 0;
+
+  @media only screen and (max-width: 800px){
+    align-self: stretch;
+    justify-content: space-between;
+  }
 
   &__item{
     &:not(:last-child){
