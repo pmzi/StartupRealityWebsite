@@ -1,6 +1,8 @@
 import React from 'react';
 import Sponsors from './Sponsors';
 
+import './style.scss';
+
 function SponsorsSection(){
   return (
     <section className="sponsors-section">
