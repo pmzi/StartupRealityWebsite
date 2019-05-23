@@ -1,0 +1,15 @@
+.sponsors{
+  padding: 1rem 0 1rem;
+  &__title{
+    text-align: center;
+  }
+  &__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item:not(:last-child){
+    margin-left: 2rem;
+  }
+}
