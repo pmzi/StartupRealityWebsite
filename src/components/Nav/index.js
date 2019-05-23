@@ -5,17 +5,68 @@ import NavList from './NavList';
 
 import './style.scss';
 
-function Nav(){
-  return (
-    <nav className="nav">
-      <div className="nav__content">
-        <Button>
-          ثبت‌نام
-        </Button>
-        <NavList />
-      </div>
-    </nav>
-  );
+class Nav extends React.PureComponent{
+  state = {
+    isOpen: false,
+    shouldShowMenuIcon: false,
+  };
+
+  componentDidMount(){
+    window.addEventListener('resize', ()=>{
+      if(window.innerWidth >= 800){
+        this.setState({
+          isOpen: false,
+          shouldShowMenuIcon: false,
+        });
+      }else{
+        this.setState({
+          shouldShowMenuIcon: true,
+        });
+      }
+    });
+    window.addEventListener('load', ()=>{
+      if(window.innerWidth >= 800){
+        this.setState({
+          isOpen: false,
+        });
+      }
+    });
+  }
+
+  toggleMenu = ()=>{
+    this.setState(({ isOpen })=>({
+      isOpen: !isOpen,
+    }))
+  }
+
+  render(){
+    const { shouldShowMenuIcon, isOpen } = this.state;
+
+    return (
+      <nav className="nav">
+        <div className="nav__content">
+          <div className="nav__content-header">
+            { 
+              shouldShowMenuIcon ? 
+                <i
+                  onClick={this.toggleMenu}
+                  className="material-icons"
+                >
+                  dehaze
+                </i> 
+              : null
+            }
+            <Button className="nav__signup-button">
+              ثبت‌نام
+            </Button>
+          </div>
+          <NavList
+            isOpen={isOpen}
+          />
+        </div>
+      </nav>
+    );
+  }
 }
 
 export default Nav;

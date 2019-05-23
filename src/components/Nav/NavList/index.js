@@ -45,8 +45,10 @@ class NavList extends React.PureComponent{
   }
 
   render(){
+    const { isOpen } = this.props;
+    const isOpenClassName = isOpen ? ' nav-list--open' : '';
     return (
-      <div className="nav-list">
+      <div className={`nav-list${isOpenClassName}`}>
         {this.getItems()}
       </div>
     );
