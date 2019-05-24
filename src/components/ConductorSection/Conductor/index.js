@@ -119,15 +119,15 @@ class Conductor extends React.PureComponent{
   getConductorItems(){
     const { items } = this.state;
     const reactItems = [
-      <TimeIdentifier isStart={true}>
+      <TimeIdentifier key="start" isStart={true}>
         ۹:۰۰
       </TimeIdentifier>,
-      <ConductorSep />
+      <ConductorSep key="sep" />
     ];
     items.forEach(({ name, from, to, panelists })=>{
       reactItems.push(
         <ConductorItem
-          key={name}
+          key={from}
           name={name}
           from={from}
           to={to}
@@ -135,11 +135,11 @@ class Conductor extends React.PureComponent{
         />
       );
       reactItems.push(
-        <ConductorSep />
+        <ConductorSep key={from+'sep'} />
       );
     });
     reactItems.push(
-      <TimeIdentifier>
+      <TimeIdentifier key="finish">
         ۱۸:۰۰
       </TimeIdentifier>
     );

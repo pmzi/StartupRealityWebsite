@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './clippath.svg';
+
 import './style.scss'
 
 function Speaker({ image, name, desc, className }){

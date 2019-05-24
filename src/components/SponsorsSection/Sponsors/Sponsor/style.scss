@@ -1,3 +1,14 @@
 .sponsor{
-  max-width: 20rem;
+
+  &__image{
+    filter: grayscale(1);
+    max-width: 20rem;
+    max-height: 10rem;
+
+    transition-duration: 0.3s;
+
+    &:hover{
+      filter: grayscale(0);
+    }
+  }
 }

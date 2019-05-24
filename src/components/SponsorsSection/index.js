@@ -12,13 +12,28 @@ function SponsorsSection(){
           sponsors={
             [
               {
-                image: 'evand.png',
-                title: 'title',
+                id: 0,
+                image: 'shahrdari.png',
+                title: 'شهرداری کرج',
+                link: 'http://yektanet.com/',
               },
               {
                 id: 1,
-                image: 'evand.png',
-                title: 'title',
+                image: 'yektanet.png',
+                title: 'یکتانت',
+                link: '',
+              },
+              {
+                id: 3,
+                image: 'arvan.png',
+                title: 'ابرآروان',
+                link: 'http://arvancloud.com/'
+              },
+              {
+                id: 4,
+                image: 'khanestartup.png',
+                title: 'خانه استارت‌آپ',
+                link: 'http://Khanestartup.ir/',
               },
             ]
           }
@@ -28,8 +43,9 @@ function SponsorsSection(){
           sponsors={
             [
               {
-                image: 'img1.png',
-                title: 'title',
+                image: 'techrasa.png',
+                title: 'تکراسا',
+                link: 'http://Techrasa.com/',
               },
             ]
           }

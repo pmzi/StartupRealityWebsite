@@ -10,13 +10,14 @@ class Sponsors extends React.Component{
 
     const renderedSponsors = [];
 
-    sponsors.forEach(({ image, title })=>{
+    sponsors.forEach(({ image, title, link })=>{
       renderedSponsors.push(
         <Sponsor
           className="sponsors__item"
           key={image}
           title={title}
           image={image}
+          link={link}
         />
       );
     });

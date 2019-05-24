@@ -2,13 +2,15 @@ import React from 'react';
 
 import './style.scss';
 
-function Sponsor({ image, title, className }){
+function Sponsor({ image, title, className, link }){
   return (
-    <img
-      className={`sponsor ${className}`}
-      alt={title}
-      src={`assets/sponsors/${image}`}
-    />
+    <a className={`sponsor ${className}`} href={link}>
+      <img
+        className="sponsor__image"
+        alt={title}
+        src={`assets/sponsors/${image}`}
+      />
+    </a>
   );
 }
 

@@ -11,7 +11,7 @@ function Header(){
   return (
     <header className="header">
       <HeaderTitle />
-      <CountDown time={4210000000} />
+      <CountDown time={1562889600000} />
       <EventInfo />
       <AboutEvent />
     </header>

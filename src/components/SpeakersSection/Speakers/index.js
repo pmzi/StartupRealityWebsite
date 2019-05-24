@@ -8,26 +8,31 @@ class Speakers extends React.PureComponent{
   state = {
     speakers: [
       {
+        id: 1,
         image: '1.jpg',
         name: '?',
         desc: '?',
       },
       {
+        id: 2,
         image: '1.jpg',
         name: '?',
         desc: '?',
       },
       {
+        id: 3,
         image: '1.jpg',
         name: '?',
         desc: '?',
       },
       {
+        id: 4,
         image: '1.jpg',
         name: '?',
         desc: '?',
       },
       {
+        id: 5,
         image: '2.jpg',
         name: '?',
         desc: '?',
@@ -39,11 +44,11 @@ class Speakers extends React.PureComponent{
     const reactSpeakers = [];
     const { speakers } = this.state;
 
-    speakers.forEach(({ image, name, desc }) =>{
+    speakers.forEach(({ id, image, name, desc }) =>{
       reactSpeakers.push(
         <Speaker
           className="speakers__speaker"
-          key={image}
+          key={id}
           image={image}
           name={name}
           desc={desc}
