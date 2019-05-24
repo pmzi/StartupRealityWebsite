@@ -11,102 +11,107 @@ class Conductor extends React.PureComponent{
   state = {
     items: [
       {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
+        name: 'پذیرش',
+        from: '۰۹:۰۰',
+        to: '۱۰:۰۰',
+      },
+      {
+        name: 'قرآن و سرود',
+        from: '۱۰:۰۰',
+        to: '۱۰:۱۵',
       },
       {
         name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
+        from: '۱۰:۱۵',
+        to: '۱۰:۳۰',
+        panelists: 'سخنران',
       },
       {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
+        name: 'سخنرانی',
+        from: '۱۰:۳۰',
+        to: '۱۰:۴۰',
+        panelists: 'سخنران',
       },
       {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
+        name: 'پخش تیزر استارت‌آپ ریلیتی',
+        from: '۱۰:۴۰',
+        to: '۱۰:۵۰',
       },
       {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
-      },
-      {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
+        name: 'سخنرانی',
+        from: '۱۰:۵۰',
+        to: '۱۱:۱۰',
         isActive: true,
+        panelists: 'سخنران',
+      },
+      {
+        name: 'پنل',
+        from: '۱۱:۱۰',
+        to: '۱۱:۵۰',
         panelists: 'فلانی | فلانی',
       },
       {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
+        name: 'سخنرانی',
+        from: '۱۱:۵۰',
+        to: '۱۲:۱۰',
+        panelists: 'سخنران',
+      },
+      {
+        name: 'ناهار و نماز',
+        from: '۱۲:۱۰',
+        to: '۱۳:۴۰',
+      },
+      {
+        name: 'سخنرانی',
+        from: '۱۳:۴۰',
+        to: '۱۴:۰۰',
+        panelists: 'سخنران',
+      },
+      {
+        name: 'پنل',
+        from: '۱۴:۰۰',
+        to: '۱۴:۴۰',
         panelists: 'فلانی | فلانی',
       },
       {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
+        name: 'سخنرانی',
+        from: '۱۴:۴۰',
+        to: '۱۵:۰۰',
+        panelists: 'سخنران',
+      },
+      {
+        name: 'سخنرانی',
+        from: '۱۵:۰۰',
+        to: '۱۵:۲۰',
+        panelists: 'سخنران',
+      },
+      {
+        name: 'استراحت و شبکه سازی',
+        from: '۱۵:۲۰',
+        to: '۱۵:۵۰',
+      },
+      {
+        name: 'سخنرانی',
+        from: '۱۵:۵۰',
+        to: '۱۶:۱۰',
+        panelists: 'سخنران',
+      },
+      {
+        name: 'پنل',
+        from: '۱۶:۱۰',
+        to: '۱۶:۵۰',
         panelists: 'فلانی | فلانی',
       },
       {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
+        name: 'سخنرانی',
+        from: '۱۶:۵۰',
+        to: '۱۷:۱۰',
+        panelists: 'سخنران',
       },
       {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
-      },
-      {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
-      },
-      {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
-      },
-      {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
-      },
-      {
-        name: 'اینترو',
-        from: '18:30',
-        to: '20:00',
-        isActive: false,
-        panelists: 'فلانی | فلانی',
+        name: 'فینگرفود و شبکه سازی',
+        from: '۱۷:۱۰',
+        to: '۱۸:۳۰',
       },
     ]
   }
@@ -115,18 +120,17 @@ class Conductor extends React.PureComponent{
     const { items } = this.state;
     const reactItems = [
       <TimeIdentifier isStart={true}>
-        9:00
+        ۹:۰۰
       </TimeIdentifier>,
       <ConductorSep />
     ];
-    items.forEach(({ name, from, to, isActive, panelists })=>{
+    items.forEach(({ name, from, to, panelists })=>{
       reactItems.push(
         <ConductorItem
           key={name}
           name={name}
           from={from}
           to={to}
-          isActive={isActive}
           panelists={panelists}
         />
       );
@@ -136,7 +140,7 @@ class Conductor extends React.PureComponent{
     });
     reactItems.push(
       <TimeIdentifier>
-        18:00
+        ۱۸:۰۰
       </TimeIdentifier>
     );
     return reactItems;

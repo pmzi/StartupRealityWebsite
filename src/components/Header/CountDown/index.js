@@ -24,6 +24,10 @@ class CountDown extends React.PureComponent{
 
     let toTime = parseInt((time - now) / 1000);
 
+    if(toTime < 0){
+      return;
+    }
+
     const daysSeconds = 60 * 60 * 24;
     const hoursSeconds = 60 * 60;
     const minutesSeconds = 60;

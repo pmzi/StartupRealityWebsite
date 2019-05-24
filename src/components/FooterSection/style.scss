@@ -5,7 +5,8 @@
 
   border-top: 0.1rem solid $light-purple;
   
-  background-image: url(/assets/headerbg.png);
+  background-image: linear-gradient(to top, $dark-purple, transparent 40%, transparent 60%, $dark-purple), linear-gradient(to right, $dark-purple, transparent 10%, transparent 90%, $dark-purple), url(/assets/headerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: 100%;
 }

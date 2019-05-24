@@ -3,7 +3,10 @@
 .conductor-section{
   padding: 5rem 0;
 
-  background-image: url(/assets/headerbg.png);
+  background-image: linear-gradient(to top, $dark-purple, transparent 40%, transparent 60%, $dark-purple), linear-gradient(to right, $dark-purple, transparent 10%, transparent 90%, $dark-purple), url(/assets/headerbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
 
   border-top: 0.1rem solid $light-purple;
   border-bottom: 0.1rem solid $light-purple;

@@ -30,11 +30,11 @@ class NavList extends React.PureComponent{
       },
       {
         link: '#location-section',
-        text: 'محل برگذاری',
+        text: 'محل برگزاری',
       },
       {
         link: '#team-section',
-        text: 'تیم برگذاری',
+        text: 'تیم برگزاری',
       },
       {
         link: '#socials-section',

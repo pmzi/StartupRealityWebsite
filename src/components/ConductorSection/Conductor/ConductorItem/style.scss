@@ -5,11 +5,11 @@
   justify-content: center;
   align-items: center;
 
-  &--active &__dot{
+  &:hover &__dot{
     background-image: radial-gradient($dark-green 0 30%, transparentize($light-green, 0.7) 30%, transparent);
   }
 
-  &--active &__timing-item{
+  &:hover &__timing-item{
     border: 0.1rem solid $light-green;
     &:first-child{
       border: 0.1rem solid transparentize($color: $light-green, $amount: 0.5);
@@ -53,6 +53,7 @@
     border-radius: 20px;
     
     padding: 0.5rem 2rem;
+    transition-duration: 0.1s;
 
     &:not(:last-child){
       margin-left: 1rem;

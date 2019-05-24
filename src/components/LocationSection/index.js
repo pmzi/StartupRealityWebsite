@@ -8,7 +8,7 @@ function LandingSection(){
       <div className="location-section__content">
         <header>
           <h2 className="location-section__title">
-            محل برگذاری
+            محل برگزاری
           </h2> 
         </header>
         <a
@@ -18,7 +18,7 @@ function LandingSection(){
         >
           <img
             className="location-section__image"
-            alt="محل برگذاری"
+            alt="محل برگزاری"
             src="assets/map.png"
           />
         </a>

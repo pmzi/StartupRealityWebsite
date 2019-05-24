@@ -3,10 +3,8 @@ import React from 'react';
 import './style.scss';
 
 function CoductorItem({ name, from, to, isActive, panelists }){
-  const isActiveClass = isActive ? ' conductor-item--active' : '';
-
   return (
-    <div className={`conductor-item${isActiveClass}`}>
+    <div className="conductor-item">
       <div className="conductor-item__content">
         <div className="conductor-item__timing">
           <div className="conductor-item__timing-item">

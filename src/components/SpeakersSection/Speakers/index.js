@@ -8,44 +8,29 @@ class Speakers extends React.PureComponent{
   state = {
     speakers: [
       {
-        image: 'pouya.jpg',
-        name: 'پویا مظفرمقام',
-        desc: 'رئیس هیئت مدیره سازمان فلان',
+        image: '1.jpg',
+        name: '?',
+        desc: '?',
       },
       {
-        image: 'pouya.jpg',
-        name: 'پویا مظفرمقام',
-        desc: 'رئیس هیئت مدیره سازمان فلان',
+        image: '1.jpg',
+        name: '?',
+        desc: '?',
       },
       {
-        image: 'pouya.jpg',
-        name: 'پویا مظفرمقام',
-        desc: 'رئیس هیئت مدیره سازمان فلان',
+        image: '1.jpg',
+        name: '?',
+        desc: '?',
       },
       {
-        image: 'pouya.jpg',
-        name: 'پویا مظفرمقام',
-        desc: 'رئیس هیئت مدیره سازمان فلان',
+        image: '1.jpg',
+        name: '?',
+        desc: '?',
       },
       {
-        image: 'pouya.jpg',
-        name: 'پویا مظفرمقام',
-        desc: 'رئیس هیئت مدیره سازمان فلان',
-      },
-      {
-        image: 'pouya.jpg',
-        name: 'پویا مظفرمقام',
-        desc: 'رئیس هیئت مدیره سازمان فلان',
-      },
-      {
-        image: 'pouya.jpg',
-        name: 'پویا مظفرمقام',
-        desc: 'رئیس هیئت مدیره سازمان فلان',
-      },
-      {
-        image: 'pouya.jpg',
-        name: 'پویا مظفرمقام',
-        desc: 'رئیس هیئت مدیره سازمان فلان',
+        image: '2.jpg',
+        name: '?',
+        desc: '?',
       },
     ]
   }

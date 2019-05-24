@@ -11,7 +11,7 @@ function EventInfo(){
         icon="event_note"
         className="event-info__item"
       >
-        21 تیر ۱۳۹۸
+        ۲۱ تیر ۱۳۹۸
       </EventInfoItem>
       <EventInfoItem
         icon="location_on"

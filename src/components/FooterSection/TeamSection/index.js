@@ -9,9 +9,44 @@ class TeamSection extends React.PureComponent{
     members: [
       {
         name: 'شایان صابری',
+        image: 'shayan.jpg',
+        title: '',
+      },
+      {
+        name: 'محمد جیریان',
+        image: 'mohammad.jpg',
+        title: '',
+      },
+      {
+        name: 'میلاد فکوریان',
+        image: 'miladf.jpg',
+        title: '',
+      },
+      {
+        name: 'نوید علیزاده',
+        image: 'navid.jpg',
+        title: '',
+      },
+      {
+        name: 'خشایار خوش‌آرای',
+        image: 'khashayar.jpg',
+        title: '',
+      },
+      {
+        name: 'میلاد موسوی',
+        image: 'miladm.jpg',
+        title: '',
+      },
+      {
+        name: 'پویا مظفرمقام',
         image: 'pouya.jpg',
-        title: 'برگذارکننده رویداد',
-      }
+        title: '',
+      },
+      {
+        name: 'محسن منسومی',
+        image: 'mohsen.jpg',
+        title: '',
+      },
     ]
   }
 
@@ -37,7 +72,7 @@ class TeamSection extends React.PureComponent{
       <section className="team-section">
         <header className="team-section__header">
           <h2 className="team-section__title">
-            تیم برگذاری
+            تیم برگزاری
           </h2>
         </header>
         <div className="team-section__members">
