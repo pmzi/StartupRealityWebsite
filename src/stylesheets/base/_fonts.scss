@@ -10,6 +10,34 @@
   url(/assets/fonts/MaterialIcons-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: Shabnam;
+  src: url('/assets/fonts/Shabnam.eot');
+  src: url('/assets/fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/Shabnam.woff') format('woff'),
+       url('/assets/fonts/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('/assets/fonts/Shabnam-Bold.eot');
+  src: url('/assets/fonts/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/Shabnam-Bold.woff') format('woff'),
+       url('/assets/fonts/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('/assets/fonts/Shabnam-Light.eot');
+  src: url('/assets/fonts/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/Shabnam-Light.woff') format('woff'),
+       url('/assets/fonts/Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;

@@ -37,12 +37,19 @@ class CountDown extends React.PureComponent{
     const seconds = toTime;
 
     this.setState({
-      days,
-      hours,
-      minutes,
-      seconds,
+      days: this.toPersianDigits(days),
+      hours: this.toPersianDigits(hours),
+      minutes: this.toPersianDigits(minutes),
+      seconds: this.toPersianDigits(seconds),
     });
   }
+
+  toPersianDigits = (text) => {
+    var id= ['۰','۱','۲','۳','۴','۵','۶','۷','۸','۹'];
+    return String(text).replace(/[0-9]/g, function(w){
+        return id[+w]
+    });
+} 
 
   render(){
     const { days, hours, minutes, seconds } = this.state;
