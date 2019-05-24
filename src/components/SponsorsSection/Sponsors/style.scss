@@ -11,8 +11,10 @@
   }
   &__item{
     margin-left: 2rem;
-    &:not(:last-child){
-      margin-bottom: 3rem;
+    @media only screen and (max-width: 500px){
+      &:not(:last-child){
+        margin-bottom: 3rem;
+      }
     }
   }
 }
