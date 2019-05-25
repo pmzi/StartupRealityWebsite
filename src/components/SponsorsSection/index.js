@@ -15,13 +15,12 @@ function SponsorsSection(){
                 id: 0,
                 image: 'shahrdari.png',
                 title: 'شهرداری کرج',
-                link: 'http://yektanet.com/',
               },
               {
                 id: 1,
                 image: 'yektanet.png',
                 title: 'یکتانت',
-                link: '',
+                link: 'http://yektanet.com/',
               },
               {
                 id: 3,
