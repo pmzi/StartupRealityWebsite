@@ -23,7 +23,7 @@ function EventInfo(){
         icon="access_time"
         className="event-info__item"
       >
-        ۹ تا ۱۸
+        ۰۹:۰۰ تا ۱۸:۳۰
       </EventInfoItem>
     </div>
   );

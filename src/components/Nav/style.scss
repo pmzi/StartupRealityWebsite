@@ -10,8 +10,8 @@
   width: 100%;
   z-index: 2;
 
-  background-image: linear-gradient(to top, transparent 1%, $dark-purple);
-
+  //background-image: linear-gradient(to top, transparent 1%, $dark-purple);
+  background-color: $dark-purple;
   &__wrapper{
     max-width: 120rem;
     width: 100%;
@@ -23,7 +23,7 @@
     margin-top: 3rem;
 
     padding-bottom: 1rem;
-    margin-bottom: 5rem;
+    //margin-bottom: 1rem;
 
     display: flex;
     flex-direction: column;

@@ -9,9 +9,39 @@ class Speakers extends React.PureComponent{
     speakers: [
       {
         id: 1,
-        image: '1.jpg',
-        name: '?',
-        desc: '?',
+        image: 'bahar.jpg',
+        name: 'بهار یارمحمد',
+        desc: 'معاون سرمایه‌گذاری فیروزه',
+      },
+      {
+        id: 2,
+        image: 'farhad.jpg',
+        name: 'فرهاد فاطمی',
+        desc: 'هم‌بنیان‌گذار و مدیر فنی ابرآروان',
+      },
+      {
+        id: 3,
+        image: 'vahid.jpg',
+        name: 'وحید معصومی',
+        desc: 'معاون مهندسی کافه بازار',
+      },
+      {
+        id: 4,
+        image: 'arash.jpg',
+        name: 'آرش برهمند',
+        desc: 'سردبیر ماهنامه پیوست',
+      },
+      {
+        id: 5,
+        image: 'azali.jpg',
+        name: 'محمدرضا ازلی',
+        desc: 'هم‌بنیان‌گذار تکراسا و استارت‌آپ جاده ابریشم',
+      },
+      {
+        id: 1,
+        image: 'alireza.jpg',
+        name: 'علیرضا شیخ‌الملوکی',
+        desc: 'توسعه‌دهنده نرم‌افزار TheatreJS',
       },
       {
         id: 2,

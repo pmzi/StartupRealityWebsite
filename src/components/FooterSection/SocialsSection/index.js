@@ -9,17 +9,17 @@ class SocialsSection extends React.PureComponent{
     items: [
       {
         title: 'Instagram',
-        link: '#',
+        link: 'https://instagram.com/startupreality_/',
         image: 'instagram.png',
       },
       {
         title: 'Telegram',
-        link: '#',
+        link: 'https://t.me/startup_reality/',
         image: 'telegram.png',
       },
       {
         title: 'Twitter',
-        link: '#',
+        link: 'https://twitter.com/startupreality_/',
         image: 'twitter.png',
       }
     ]

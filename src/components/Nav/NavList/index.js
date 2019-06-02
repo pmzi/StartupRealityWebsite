@@ -38,7 +38,7 @@ class NavList extends React.PureComponent{
       },
       {
         link: '#socials-section',
-        text: 'تماس با ما',
+        text: 'ارتباط با ما',
       },
     ]
   };
