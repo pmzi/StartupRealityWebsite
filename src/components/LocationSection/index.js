@@ -19,7 +19,7 @@ function LandingSection(){
           <img
             className="location-section__image"
             alt="محل برگزاری"
-            src="assets/map.png"
+            src="assets/Map.jpg"
           />
         </a>
         <div className="location-section__location">
