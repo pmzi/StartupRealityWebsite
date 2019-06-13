@@ -26,6 +26,12 @@ class Speakers extends React.PureComponent{
         desc: 'معاون مهندسی کافه بازار',
       },
       {
+        id: 2,
+        image: 'aysan.jpg',
+        name: 'آیسان سبایی',
+        desc: 'مدیر بازاریابی آچاره',
+      },
+      {
         id: 4,
         image: 'arash.jpg',
         name: 'آرش برهمند',
@@ -42,12 +48,6 @@ class Speakers extends React.PureComponent{
         image: 'alireza.jpg',
         name: 'علیرضا شیخ‌الملوکی',
         desc: 'توسعه‌دهنده نرم‌افزار TheatreJS',
-      },
-      {
-        id: 2,
-        image: '1.jpg',
-        name: '?',
-        desc: '?',
       },
       {
         id: 3,
