@@ -62,6 +62,11 @@ class TeamSection extends React.PureComponent{
         image: 'mohsenr.jpg',
         title: '',
       },
+      {
+        name: 'علی اسمعیلی',
+        image: 'ali.jpg',
+        title: '',
+      },
     ]
   }
 

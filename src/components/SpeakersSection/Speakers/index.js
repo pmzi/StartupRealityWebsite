@@ -7,62 +7,97 @@ import './style.scss';
 class Speakers extends React.PureComponent{
   state = {
     speakers: [
+      //{
+      //  id: 1,
+      //  image: 'jhubin.jpg',
+      //  name: 'ژوبین علاقه‌بند',
+      //  desc: 'مدیرعامل اسنپ',
+       // linkedin: '',
+     // },
+     // {
+      //  id: 3,
+      //  image: 'mahdi.jpg',
+      //  name: 'مهدی نایبی',
+      //  desc: 'مدیرعامل الوپیک',
+      //  linkedin: '',
+     // },
       {
-        id: 1,
+        id: 4,
         image: 'bahar.jpg',
         name: 'بهار یارمحمد',
         desc: 'معاون سرمایه‌گذاری فیروزه',
+        linkedin: 'https://www.linkedin.com/in/bahar-yarmohammad-691a1853/',
       },
       {
-        id: 2,
+        id: 5,
         image: 'farhad.jpg',
         name: 'فرهاد فاطمی',
         desc: 'هم‌بنیان‌گذار و مدیر فنی ابرآروان',
+        linkedin: 'https://www.linkedin.com/in/farhad-fatemi-2632a233/',
       },
       {
-        id: 3,
+        id: 6,
         image: 'vahid.jpg',
         name: 'وحید معصومی',
         desc: 'معاون مهندسی کافه بازار',
+        linkedin: 'https://www.linkedin.com/in/vhdmasoumi/',
       },
+     // {
+      //  id: 7,
+      //  image: 'farshid.jpg',
+      //  name: 'فرشید هندی',
+      //  desc: 'مدیر سرمایه‌گذاری رهنما',
+      //  linkedin: '',
+     // },
+      //{
+      //  id: 8,
+      //  image: 'mohammada.jpg',
+      //  name: 'محمد احمدی',
+      //  desc: 'مدیر عامل شرکت سرمایه‌گذاری اسمارتاپ',
+      //  linkedin: '',
+      //},
       {
-        id: 2,
+        id: 9,
         image: 'aysan.jpg',
         name: 'آیسان سبایی',
         desc: 'مدیر بازاریابی آچاره',
+        linkedin: 'https://www.linkedin.com/in/aysansabaei/',
       },
       {
-        id: 4,
+        id: 10,
         image: 'arash.jpg',
         name: 'آرش برهمند',
         desc: 'سردبیر ماهنامه پیوست',
+        linkedin: '',
       },
       {
-        id: 5,
+        id: 11,
         image: 'azali.jpg',
         name: 'محمدرضا ازلی',
         desc: 'هم‌بنیان‌گذار تکراسا و استارت‌آپ جاده ابریشم',
+        linkedin: 'https://www.linkedin.com/in/mohammadrezaazali/',
       },
       {
-        id: 1,
+        id: 12,
         image: 'alireza.jpg',
         name: 'علیرضا شیخ‌الملوکی',
         desc: 'توسعه‌دهنده نرم‌افزار TheatreJS',
+        linkedin: 'https://www.linkedin.com/in/alireza-sheikholmolouki/',
       },
       {
-        id: 3,
+        id: 13,
         image: '1.jpg',
         name: '?',
         desc: '?',
       },
       {
-        id: 4,
+        id: 13,
         image: '1.jpg',
         name: '?',
         desc: '?',
       },
       {
-        id: 5,
+        id: 14,
         image: '2.jpg',
         name: '?',
         desc: '?',
@@ -74,7 +109,7 @@ class Speakers extends React.PureComponent{
     const reactSpeakers = [];
     const { speakers } = this.state;
 
-    speakers.forEach(({ id, image, name, desc }) =>{
+    speakers.forEach(({ id, image, name, desc, linkedin }) =>{
       reactSpeakers.push(
         <Speaker
           className="speakers__speaker"
@@ -82,6 +117,7 @@ class Speakers extends React.PureComponent{
           image={image}
           name={name}
           desc={desc}
+          linkedin={linkedin}
         />
       );
     })

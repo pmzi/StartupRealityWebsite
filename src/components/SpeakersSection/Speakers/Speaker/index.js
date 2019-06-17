@@ -4,7 +4,7 @@ import './clippath.svg';
 
 import './style.scss'
 
-function Speaker({ image, name, desc, className }){
+function Speaker({ image, name, desc, className, linkedin }){
   return (
     <div className={`speaker ${className}`}>
       <header className="speaker__header">
@@ -20,6 +20,13 @@ function Speaker({ image, name, desc, className }){
       <span className="speaker__desc">
         { desc }
       </span>
+      <a className={`speaker ${className}`} href={linkedin}>
+        <img
+          className="speaker__linkedin"
+          src={`assets/linkedin.png`}
+          alt={name}
+        />
+      </a>
     </div>
   );
 }
