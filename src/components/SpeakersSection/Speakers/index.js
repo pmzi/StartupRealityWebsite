@@ -37,10 +37,10 @@ class Speakers extends React.PureComponent{
       },
       {
         id: 6,
-        image: 'vahid.jpg',
-        name: 'وحید معصومی',
-        desc: 'معاون مهندسی کافه بازار',
-        linkedin: 'https://www.linkedin.com/in/vhdmasoumi/',
+        image: 'pouria.jpg',
+        name: 'پوریا کاویانی',
+        desc: 'معاون ارشد مهندسی کافه بازار و دیوار',
+        linkedin: 'https://www.linkedin.com/in/pooria-kaviani-20b99792/',
       },
      // {
       //  id: 7,
@@ -68,7 +68,7 @@ class Speakers extends React.PureComponent{
         image: 'arash.jpg',
         name: 'آرش برهمند',
         desc: 'سردبیر ماهنامه پیوست',
-        linkedin: '',
+        linkedin: 'https://www.linkedin.com/in/arash-barahmand-b9b48a48/',
       },
       {
         id: 11,

@@ -47,6 +47,11 @@ function SponsorsSection(){
                 title: 'تکراسا',
                 link: 'http://Techrasa.com/',
               },
+              {
+                image: 'shanbe.png',
+                title: 'شنبه',
+                link: 'https://shanbemag.com/',
+              },
             ]
           }
         />
