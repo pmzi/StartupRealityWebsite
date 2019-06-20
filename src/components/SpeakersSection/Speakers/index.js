@@ -64,27 +64,6 @@ class Speakers extends React.PureComponent{
         linkedin: 'https://www.linkedin.com/in/aysansabaei/',
       },
       {
-        id: 10,
-        image: 'arash.jpg',
-        name: 'آرش برهمند',
-        desc: 'سردبیر ماهنامه پیوست',
-        linkedin: 'https://www.linkedin.com/in/arash-barahmand-b9b48a48/',
-      },
-      {
-        id: 11,
-        image: 'azali.jpg',
-        name: 'محمدرضا ازلی',
-        desc: 'هم‌بنیان‌گذار تکراسا و استارت‌آپ جاده ابریشم',
-        linkedin: 'https://www.linkedin.com/in/mohammadrezaazali/',
-      },
-      {
-        id: 12,
-        image: 'alireza.jpg',
-        name: 'علیرضا شیخ‌الملوکی',
-        desc: 'توسعه‌دهنده نرم‌افزار TheatreJS',
-        linkedin: 'https://www.linkedin.com/in/alireza-sheikholmolouki/',
-      },
-      {
         id: 13,
         image: '1.jpg',
         name: '?',

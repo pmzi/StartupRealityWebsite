@@ -1,29 +1,36 @@
 @import '../../../../stylesheets/imports.scss';
 
-.team-member{
+.speaker{
   display: flex;
   flex-direction: column;
-  text-align: center;
 
-  @media only screen and (max-width: 800px){
-    &:not(:last-child){
-      margin-bottom: 3rem;
-    }
+  &__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  flex-basis: 5rem;
-  &__avatar{
-    width: 15rem;
-    height: 15rem;
-    
+  &__image{
+    //clip-path: url(#svgPath);
+    width: 17rem;
+    height: 17rem;
+
+    margin-bottom: 1rem;
+
     border-radius: 50%;
     border: 0.5rem solid $light-purple;
 
     margin-bottom: 1rem;
   }
+
+  &__name{
+    padding: 0 0.5rem;
+  }
+
   &__desc{
-    padding: 0.5rem 0;
     font-size: 1.2rem;
+    text-align: center;
+
+    padding: 0.2rem 0;
   }
   &__linkedin{
     

@@ -3,6 +3,7 @@ import React from 'react';
 import Nav from './Nav';
 import Header from './Header';
 import SpeakersSection from './SpeakersSection';
+import ModaratorsSection from './ModaratorsSection';
 import ConductorSection from './ConductorSection';
 import SponsorsSection from './SponsorsSection';
 import LandingSection from './LocationSection';
@@ -14,6 +15,7 @@ function Landing(){
       <Nav />
       <Header />
       <SpeakersSection />
+      <ModaratorsSection />
       <ConductorSection />
       <SponsorsSection />
       <LandingSection />
