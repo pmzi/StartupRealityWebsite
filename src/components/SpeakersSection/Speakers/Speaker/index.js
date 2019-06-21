@@ -20,7 +20,7 @@ function Speaker({ image, name, desc, className, linkedin }){
       <span className="speaker__desc">
         { desc }
       </span>
-      <a className={`speaker ${className}`} href={linkedin}>
+      <a className={`speaker ${className}`} href={linkedin} target="_blank">
         <img
           className="speaker__linkedin"
           src={`assets/linkedin.png`}

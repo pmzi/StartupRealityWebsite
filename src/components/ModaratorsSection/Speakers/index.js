@@ -12,7 +12,6 @@ class Speakers extends React.PureComponent{
         image: 'siavash.jpg',
         name: 'سیاوش صفاریان‌پور',
         desc: 'ژورنالیست علم و فناوری',
-        linkedin: '#',
       },
       {
         id: 10,

@@ -27,8 +27,19 @@
   }
   &__linkedin{
     
-    width: 24px;
-    margin:0 auto;
-  
+    width: 18px;  
+  }
+  &__instagram{
+    
+    width: 18px;  
+  }
+  &__twitter{
+    
+    width: 18px;  
+  }
+  &__social{
+
+    display: flex;
+    margin: 0 auto 30px auto;
   }
 }
