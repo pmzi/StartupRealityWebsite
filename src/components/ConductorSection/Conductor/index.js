@@ -109,7 +109,7 @@ class Conductor extends React.PureComponent{
         panelists: 'سخنران',
       },
       {
-        name: 'فینگرفود و شبکه سازی',
+        name: 'پذیرایی و شبکه سازی',
         from: '۱۷:۱۰',
         to: '۱۸:۳۰',
       },

@@ -51,9 +51,9 @@ class TeamSection extends React.PureComponent{
         name: 'میلاد موسوی',
         image: 'miladm.jpg',
         title: '',
-        linkedin: '#',
-        instagram: '#',
-        twitter: '#',
+        linkedin: 'https://www.linkedin.com/in/milad-moosavi/',
+        instagram: 'https://www.instagram.com/miladmoosavi77/',
+        twitter: 'https://twitter.com/moosavi_milad',
       },
       {
         name: 'پویا مظفرمقام',
