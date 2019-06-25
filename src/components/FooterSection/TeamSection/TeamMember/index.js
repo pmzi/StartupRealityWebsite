@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './style.scss';
+import TeamSocial from './TeamSocial';
 
 function TeamMember({className, title, name, image, linkedin, instagram, twitter}){
   return (
@@ -17,27 +18,21 @@ function TeamMember({className, title, name, image, linkedin, instagram, twitter
         { title }
       </span>
       <div className="team-member__socials">
-        <a className="team-member__social" href={linkedin} target="_blank">
-          <img
-            className="team-member__linkedin"
-            src={`assets/linkedin.png`}
-            alt={name}
-          />
-       </a>
-       <a className="team-member__social" href={instagram} target="_blank">
-          <img
-            className="team-member__instagram"
-            src={`assets/instagram.png`}
-           alt={name}
-          />
-        </a>
-        <a className="team-member__social" href={twitter} target="_blank">
-          <img
-            className="team-member__twitter"
-            src={`assets/twitter.png`}
-           alt={name}
-          />
-        </a>
+        <TeamSocial
+          icon="linkedin"
+          href={linkedin}
+          name={name}
+        />
+        <TeamSocial
+          icon="instagram"
+          href={instagram}
+          name={name}
+        />
+        <TeamSocial
+          icon="twitter"
+          href={twitter}
+          name={name}
+        />
       </div>
     </div>
   );

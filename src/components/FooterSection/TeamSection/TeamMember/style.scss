@@ -5,6 +5,8 @@
   flex-direction: column;
   text-align: center;
 
+  margin-bottom: 1rem;
+
   @media only screen and (max-width: 800px){
     &:not(:last-child){
       margin-bottom: 3rem;
@@ -25,13 +27,7 @@
     padding: 0.5rem 0;
     font-size: 1.2rem;
   }
-  &__linkedin{
-    width: 1.6rem; 
-  }
-  &__instagram{
-    width: 1.6rem;
-  }
-  &__twitter{
+  &__icon{
     width: 1.6rem;
   }
   &__socials{
