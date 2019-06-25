@@ -18,4 +18,11 @@
   &:hover{
     opacity: 0.9;
   }
+
+  &--big{
+    width: 100%;
+    max-width: 22rem;
+    height: 6rem;
+    font-size: 2rem;
+  }
 }

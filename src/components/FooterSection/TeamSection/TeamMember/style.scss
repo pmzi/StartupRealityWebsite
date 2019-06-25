@@ -26,20 +26,21 @@
     font-size: 1.2rem;
   }
   &__linkedin{
-    
-    width: 18px;  
+    width: 1.6rem; 
   }
   &__instagram{
-    
-    width: 18px;  
+    width: 1.6rem;
   }
   &__twitter{
-    
-    width: 18px;  
+    width: 1.6rem;
   }
-  &__social{
-
+  &__socials{
     display: flex;
-    margin: 0 auto 30px auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__social:not(:last-child){
+    margin-left: 1rem;
   }
 }

@@ -16,22 +16,22 @@ function TeamMember({className, title, name, image, linkedin, instagram, twitter
       <span className="team-member__desc">
         { title }
       </span>
-      <div className="team-member__social">
-        <a className={`team-member ${className}`} href={linkedin} target="_blank">
+      <div className="team-member__socials">
+        <a className="team-member__social" href={linkedin} target="_blank">
           <img
             className="team-member__linkedin"
             src={`assets/linkedin.png`}
             alt={name}
           />
        </a>
-       <a className={`team-member ${className}`} href={instagram} target="_blank">
+       <a className="team-member__social" href={instagram} target="_blank">
           <img
             className="team-member__instagram"
             src={`assets/instagram.png`}
            alt={name}
           />
         </a>
-        <a className={`team-member ${className}`} href={twitter} target="_blank">
+        <a className="team-member__social" href={twitter} target="_blank">
           <img
             className="team-member__twitter"
             src={`assets/twitter.png`}
