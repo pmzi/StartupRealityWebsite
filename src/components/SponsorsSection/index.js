@@ -15,6 +15,7 @@ function SponsorsSection(){
                 id: 0,
                 image: 'shahrdari.png',
                 title: 'شهرداری کرج',
+                link: '#',
               },
               {
                 id: 1,
@@ -45,6 +46,11 @@ function SponsorsSection(){
                 image: 'techrasa.png',
                 title: 'تکراسا',
                 link: 'http://Techrasa.com/',
+              },
+              {
+                image: 'shanbe.png',
+                title: 'شنبه',
+                link: 'https://shanbemag.com/',
               },
             ]
           }

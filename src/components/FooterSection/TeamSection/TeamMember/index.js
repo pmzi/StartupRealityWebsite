@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.scss';
 
-function TeamMember({className, title, name, image}){
+function TeamMember({className, title, name, image, linkedin, instagram, twitter}){
   return (
     <div className={`team-member ${className}`}>
       <img
@@ -16,6 +16,29 @@ function TeamMember({className, title, name, image}){
       <span className="team-member__desc">
         { title }
       </span>
+      <div className="team-member__social">
+        <a className={`team-member ${className}`} href={linkedin} target="_blank">
+          <img
+            className="team-member__linkedin"
+            src={`assets/linkedin.png`}
+            alt={name}
+          />
+       </a>
+       <a className={`team-member ${className}`} href={instagram} target="_blank">
+          <img
+            className="team-member__instagram"
+            src={`assets/instagram.png`}
+           alt={name}
+          />
+        </a>
+        <a className={`team-member ${className}`} href={twitter} target="_blank">
+          <img
+            className="team-member__twitter"
+            src={`assets/twitter.png`}
+           alt={name}
+          />
+        </a>
+      </div>
     </div>
   );
 }

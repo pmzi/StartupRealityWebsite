@@ -11,10 +11,10 @@
     }
   }
   
-  flex-basis: 20rem;
+  flex-basis: 5rem;
   &__avatar{
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     
     border-radius: 50%;
     border: 0.5rem solid $light-purple;
@@ -24,5 +24,22 @@
   &__desc{
     padding: 0.5rem 0;
     font-size: 1.2rem;
+  }
+  &__linkedin{
+    
+    width: 18px;  
+  }
+  &__instagram{
+    
+    width: 18px;  
+  }
+  &__twitter{
+    
+    width: 18px;  
+  }
+  &__social{
+
+    display: flex;
+    margin: 0 auto 30px auto;
   }
 }

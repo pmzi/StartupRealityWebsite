@@ -19,7 +19,7 @@ function LandingSection(){
           <img
             className="location-section__image"
             alt="محل برگزاری"
-            src="assets/map.png"
+            src="assets/Map.jpg"
           />
         </a>
         <div className="location-section__location">
@@ -27,7 +27,7 @@ function LandingSection(){
             location_on
           </i>
           <span>
-            کرج٬ جهانشهر٬روبروی بانک ملی شعبه جهانشهر٬ تالار شهیدان نژاد فلاح٬ سالن اصلی
+            کرج، جهانشهر، روبروی بانک ملی شعبه جهانشهر، تالار شهیدان نژاد فلاح، سالن اصلی
           </span>
         </div>
       </div>

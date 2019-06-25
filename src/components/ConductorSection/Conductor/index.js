@@ -48,7 +48,7 @@ class Conductor extends React.PureComponent{
         name: 'پنل',
         from: '۱۱:۱۰',
         to: '۱۱:۵۰',
-        panelists: 'فلانی | فلانی',
+        panelists: 'سخنران | سخنران',
       },
       {
         name: 'سخنرانی',
@@ -71,7 +71,7 @@ class Conductor extends React.PureComponent{
         name: 'پنل',
         from: '۱۴:۰۰',
         to: '۱۴:۴۰',
-        panelists: 'فلانی | فلانی',
+        panelists: 'سخنران | سخنران',
       },
       {
         name: 'سخنرانی',
@@ -100,7 +100,7 @@ class Conductor extends React.PureComponent{
         name: 'پنل',
         from: '۱۶:۱۰',
         to: '۱۶:۵۰',
-        panelists: 'فلانی | فلانی',
+        panelists: 'سخنران | سخنران',
       },
       {
         name: 'سخنرانی',
@@ -109,7 +109,7 @@ class Conductor extends React.PureComponent{
         panelists: 'سخنران',
       },
       {
-        name: 'فینگرفود و شبکه سازی',
+        name: 'پذیرایی و شبکه سازی',
         from: '۱۷:۱۰',
         to: '۱۸:۳۰',
       },
@@ -140,7 +140,7 @@ class Conductor extends React.PureComponent{
     });
     reactItems.push(
       <TimeIdentifier key="finish">
-        ۱۸:۰۰
+        ۱۸:۳۰
       </TimeIdentifier>
     );
     return reactItems;

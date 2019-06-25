@@ -1,0 +1,9 @@
+.speakers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__speaker{
+    padding: 2rem 2rem;
+  }
+}

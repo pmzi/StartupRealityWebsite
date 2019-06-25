@@ -63,7 +63,7 @@ class Nav extends React.PureComponent{
                 : null
               }
               <Button href="http://evand.com/events/sr1398" className="nav__signup-button">
-                ثبت‌نام
+                خرید بلیت
               </Button>
             </div>
             <NavList
