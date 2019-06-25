@@ -7,8 +7,8 @@ import './style.scss';
 function CTA(){
   return (
     <div className="CTA">
-      <Button isBig={true}>
-        خرید بلیط
+      <Button href="http://evand.com/events/sr1398" isBig={true}>
+        خرید بلیت
       </Button>
     </div>
   );
