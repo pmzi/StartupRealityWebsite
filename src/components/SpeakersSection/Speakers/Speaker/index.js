@@ -3,6 +3,7 @@ import React from 'react';
 import './clippath.svg';
 
 import './style.scss'
+import SpeakerSocial from './SpeakerSocial/index';
 
 function Speaker({ image, name, desc, className, linkedin }){
   return (
@@ -20,13 +21,10 @@ function Speaker({ image, name, desc, className, linkedin }){
       <span className="speaker__desc">
         { desc }
       </span>
-      <a className={`speaker ${className}`} href={linkedin} target="_blank">
-        <img
-          className="speaker__linkedin"
-          src={`assets/linkedin.png`}
-          alt={name}
-        />
-      </a>
+      <SpeakerSocial
+        href={linkedin}
+        name={name}
+      />
     </div>
   );
 }
